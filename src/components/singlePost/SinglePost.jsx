@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { MdOutlinePayment } from "react-icons/md";
 import "./singlePost.css";
 
 export default function SinglePost() {
@@ -14,8 +15,16 @@ export default function SinglePost() {
         Ethical Considerations in Autonomous Vehicles: Navigating the Moral Landscape of AI Decision-Making
           <div className="singlePostEdit">
             <i className="singlePostIcon far fa-edit"></i>
+            </div>
+          <div className="singlePostEdit">
             <i className="singlePostIcon far fa-trash-alt"></i>
+            </div>
+          <div className="singlePostEdit">
+          <MdOutlinePayment className="singlePostIcon" size={22} color="black" />
           </div>
+       
+            
+          
         </h1>
         <div className="singlePostInfo">
           <span>
