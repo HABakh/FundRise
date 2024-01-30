@@ -33,6 +33,9 @@ function App() {
         <Route path="/settings">
           {currentUser ? <Settings /> : <Login />}
         </Route>
+        {/* <Route path="/payment">
+          <Payment/>
+        </Route> */}
       </Switch>
     </Router>
   );

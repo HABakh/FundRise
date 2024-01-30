@@ -20,7 +20,8 @@ export default function SinglePost() {
             <i className="singlePostIcon far fa-trash-alt"></i>
             </div>
           <div className="singlePostEdit">
-          <MdOutlinePayment className="singlePostIcon" size={22} color="black" />
+          <MdOutlinePayment className="singlePostIcon" size={22} color="black"/>
+          
           </div>
        
             
