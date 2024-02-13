@@ -32,8 +32,8 @@ const ModalComponent = ({ isOpen, onClose }) => {
             <input className="meh" placeholder='**/****'/>
           </div>
           <div className="expDate">
-            <div className="infoheader vcenter">EXP. DATE</div>
-            <input className="meh" placeholder='**/****'/>
+            <div className="infoheader vcenter">CSC/CVC/CCV</div>
+            <input className="meh" placeholder='***'/>
           </div>
         </div>
       </div>
