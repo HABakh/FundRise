@@ -5,23 +5,24 @@
     font-family: "Quicksand", sans-serif;
   }
   body{
-    background:#ecf0f1
+    background:#ffffff
   }
   .mainContainer {
     width: 350px;
-    height: 590px;
+    height: 510px;
     margin: 0 auto;
     box-shadow:0 0 10px #2323;
     margin-top: 50px;
-    background:white;
+    background:rgb(255, 255, 255);
+    border-radius: 10px;
   }
   .cardHolder {
     height: 360px;
     background: linear-gradient(
       to right,
-      #6480ef,
-      #7775e8,
-      #806ce8
+      #9fa0a2,
+      #212127,
+      #262332
     ); 
     
   /*   border-bottom-left-radius:50%;
@@ -50,7 +51,7 @@
     color:white;
   }
   .card{
-    height:250px;
+    height:240px;
     width:280px;
     background:white;
     margin:0 auto;
@@ -171,12 +172,13 @@
   .button{
     width:120px;
     height:35px;
+    margin-top: 20px;
     border-radius:1.2em;
     background:linear-gradient(
       to right,
-      #6480ef,
-      #7775e8,
-      #806ce8
+      #9fa0a2,
+      #212127,
+      #262332
     ); 
     color:white;
     font-weight:bolder;
@@ -201,6 +203,31 @@
     font-weight:bolder;
     letter-spacing:2px;
     
+  }
+  .payy
+  {
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    
+    font-weight:bolder;
+    letter-spacing:2px;
+    
+  }
+  .fermer
+  {
+    background: linear-gradient(
+      to right,
+      #9b0d0d,
+      #bc3333,
+      #991212
+    );
+    color: aliceblue;
+    border-radius: 50px;
+
   }
 
 

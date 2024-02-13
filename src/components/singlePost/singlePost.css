@@ -32,7 +32,7 @@
 }
 
 .singlePostIcon:first-child {
-  color: teal;
+  color: rgb(94, 210, 210);
 }
 .singlePostIcon:last-child {
   color: tomato;

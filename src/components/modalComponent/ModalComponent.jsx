@@ -25,7 +25,11 @@ const ModalComponent = ({ isOpen, onClose }) => {
         <div className="bottom part wewe">
           <div className="holderInfo">
              <div className="infoheader vcenter ">CARD HOLDER</div>
-             <input className="meh" placeholder='Hamza BAKHTI '/>
+             <input className="meh" placeholder='Your Name '/>
+          </div>
+          <div className="expDate">
+            <div className="infoheader vcenter">EXP. DATE</div>
+            <input className="meh" placeholder='**/****'/>
           </div>
           <div className="expDate">
             <div className="infoheader vcenter">EXP. DATE</div>
@@ -41,16 +45,16 @@ const ModalComponent = ({ isOpen, onClose }) => {
   
   <div className="payment vcenter">
     <div className="amount">
-      <div className="infoheader vcenter">Total Amount</div>
+      <div className="infoheader vcenter">Your Amount</div>
       <div className="infocontent val vcenter">
-      <input className='payy'/>
+      <input className='payy'placeholder='DH' type='number'/>
       </div>
     </div>
     <div className="button center">PAY</div>
   </div>
 </div>
-        <button onClick={onClose}>Close Modal</button>
       </div>
+        <button className="fermer" onClick={onClose}>Close</button>
     </Modal>
   );
 };
