@@ -1,8 +1,17 @@
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { MdOutlinePayment } from "react-icons/md";
 import "./singlePost.css";
+import ModalComponent from "../modalComponent/ModalComponent";
+
 
 export default function SinglePost() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const toggleModal = () => {
+    setIsModalOpen(!isModalOpen);
+  }
+
   return (
     <div className="singlePost">
       <div className="singlePostWrapper">
@@ -12,26 +21,31 @@ export default function SinglePost() {
           alt=""
         />
         <h1 className="singlePostTitle">
-        Ethical Considerations in Autonomous Vehicles: Navigating the Moral Landscape of AI Decision-Making
+        Ethical Considerations in Autonomous Vehicles: Navigating the Moral Landscape of AI Decision-Making  </h1>
           <div className="singlePostEdit">
             <i className="singlePostIcon far fa-edit"></i>
             </div>
           <div className="singlePostEdit">
             <i className="singlePostIcon far fa-trash-alt"></i>
             </div>
-          <div className="singlePostEdit">
-          <MdOutlinePayment className="singlePostIcon" size={22} color="black"/>
-          
-          </div>
+            
+            <MdOutlinePayment
+              className="singlePostEdit"
+              size={22}
+              color="black"
+              onClick={toggleModal}
+            />
+         
+            <ModalComponent isOpen={isModalOpen} onClose={toggleModal} />
        
             
           
-        </h1>
+      
         <div className="singlePostInfo">
           <span>
             Author:
             <b className="singlePostAuthor">
-              <Link className="link" to="/posts?username=Safak">
+              <Link className="link" to="/posts?username=Hamza BAKHTI">
                 Hamza BAKHTI
               </Link>
             </b>
@@ -54,5 +68,7 @@ By the end of the course, students will have a comprehensive understanding of th
         </p>
       </div>
     </div>
+    
   );
 }
+	

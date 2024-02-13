@@ -5,6 +5,8 @@ import Register from "./pages/register/Register";
 import Settings from "./pages/settings/Settings";
 import Single from "./pages/single/Single";
 import Write from "./pages/write/Write";
+import Payment from "./pages/payment/Payment";
+
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -33,9 +35,9 @@ function App() {
         <Route path="/settings">
           {currentUser ? <Settings /> : <Login />}
         </Route>
-        {/* <Route path="/payment">
+        <Route path="/payment">
           <Payment/>
-        </Route> */}
+        </Route>
       </Switch>
     </Router>
   );
