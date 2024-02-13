@@ -4,9 +4,7 @@
     box-sizing: border-box;
     font-family: "Quicksand", sans-serif;
   }
-  body{
-    background:#ffffff
-  }
+ 
   .mainContainer {
     width: 350px;
     height: 510px;

@@ -13,12 +13,12 @@ export default function Post({img}) {
         <div className="postCats">
           <span className="postCat">
             <Link className="link" to="/posts?cat=Music">
-              AI
+              CULTURAL
             </Link>
           </span>
           <span className="postCat">
             <Link className="link" to="/posts?cat=Music">
-              Inovation
+              ENTREPRENEURIAL
             </Link>
           </span>
         </div>

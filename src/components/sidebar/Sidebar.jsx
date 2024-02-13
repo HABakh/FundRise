@@ -23,30 +23,21 @@ export default function Sidebar() {
             </Link>
           </li>
           <li className="sidebarListItem">
-            <Link className="link" to="/posts?cat=Music">
-              AI
-            </Link>
-          </li>
-          <li className="sidebarListItem">
             <Link className="link" to="/posts?cat=Sport">
-              Innovantion
+            Entrepreneurial
             </Link>
           </li>
           <li className="sidebarListItem">
             <Link className="link" to="/posts?cat=Style">
-              Design
+              Environmental
             </Link>
           </li>
           <li className="sidebarListItem">
             <Link className="link" to="/posts?cat=Tech">
-              Tech
+              Cultural
             </Link>
           </li>
-          <li className="sidebarListItem">
-            <Link className="link" to="/posts?cat=Cinema">
-              Mobile
-            </Link>
-          </li>
+          
         </ul>
       </div>
       <div className="sidebarItem">
